@@ -35,11 +35,11 @@ module.exports = function(grunt) {
 
     copy: {
       html: {
-        cwd: 'app/'
+        cwd: 'app/',
         expand: true,
         flatten: false,
         src: '**/*.html',
-        dest: 'build'/,
+        dest: 'build/',
         filter: 'isFile'
       }
     },
